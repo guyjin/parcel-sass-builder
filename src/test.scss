@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+
+  .content {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+
+    article.main--hero {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sideBar {
+      background-color: honeydew;
+    }
+  }
+
+  footer {
+    background-color: #fff;
+    border-top: 1px solid #efefef;
+    padding: 1rem;
+
+    &:before {
+      content: '';
+    }
+  }
+}

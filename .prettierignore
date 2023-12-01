@@ -1,0 +1,9 @@
+node_modules
+.prettierignore
+.prettierrc.json
+.stylelintignore
+package.json
+package-lock.json
+.stylelintrc.json
+.cache/**/**.**
+dist

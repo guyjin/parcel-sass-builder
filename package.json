@@ -1,0 +1,30 @@
+{
+    "name": "sass-me",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "prettier \"**/*.scss\" --write; parcel build **/*.scss  --no-source-maps --no-cache",
+        "serve": "onchange \"**/*.scss\" -- prettier --write --ignore-unknown {{changed}} & parcel serve src/*.scss --no-source-maps --no-cache --port 8888",
+        "watch": "onchange \"**/*.scss\" -- prettier --write --ignore-unknown {{changed}} & parcel watch src/*.scss --no-source-maps --no-cache --port 8888"
+    },
+    "keywords": [],
+    "author": "Ben Vaughan",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.10.3",
+        "autoprefixer": "^10.4.16",
+        "onchange": "^7.1.0",
+        "parcel": "^2.10.3",
+        "postcss": "^8.1.0",
+        "postcss-modules": "^6.0.0",
+        "postcss-reporter": "^7.0.5",
+        "postcss-sass": "^0.5.0",
+        "postcss-scss": "^4.0.9",
+        "prettier": "^3.1.0",
+        "sass": "^1.69.4",
+        "stylelint": "^15.11.0",
+        "stylelint-config-prettier-scss": "^1.0.0",
+        "stylelint-config-standard": "^34.0.0",
+        "stylelint-config-standard-scss": "^11.1.0"
+    }
+}
