@@ -1,6 +1,6 @@
 # Parcel Sass Builder
 
-A relatively simple utility to compile SASS files into basic CSS.
+A relatively simple utility to compile SASS files into basic CSS. Intended for content authors working in AEM that can't modify components but need to build CSS from outside the AEM system.
 
 ## Setup
 
